@@ -8,7 +8,7 @@ const NaukriHeader = () => {
   return (
     <header className="naukri-header">
       <div className="naukri-logo">
-        <img src="https://ts1.mm.bing.net/th?id=OIP.79135SDgGpsK7lsujRR9MAAAAA&pid=15.1" height="5px" width="100px"alt="Naukri Logo" />
+        <img src="https://ts1.mm.bing.net/th?id=OIP.79135SDgGpsK7lsujRR9MAAAAA&pid=15.1" alt="Naukri Logo" />
       </div>
       <nav className="naukri-nav">
         <a href="#">Jobs</a>

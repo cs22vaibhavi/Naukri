@@ -2,7 +2,7 @@ import React from "react";
 import NaukriHeader from "./NaukriHeader";
 
 export default {
-  title: "Components/NaukriHeader",
+  title: "components/NaukriHeader",
   component: NaukriHeader,
 };
 

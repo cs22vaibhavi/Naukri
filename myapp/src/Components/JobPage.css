@@ -1,0 +1,16 @@
+.jobPage {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background: #f5f5f5;
+    
+  }
+  
+  .leftColumn {
+    width: 65%;
+  }
+  
+  .rightColumn {
+    width: 30%;
+  }
