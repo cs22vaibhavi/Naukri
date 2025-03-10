@@ -1,6 +1,6 @@
 import React from "react";
 import "./NaukriHeader.css";
-import {FaCaretDown} from 'react-icons/fa';
+
 import { FaSearch } from "react-icons/fa";
 
 
@@ -25,8 +25,10 @@ const NaukriHeader = () => {
       </div>
       <div className="naukri-employers">
         <span>For employers </span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRdRpfJAmS-YTazaos7KxHZdpzvho0LsyhVA&s"width="15px" height="10px"></img>
+
         
-        <FaCaretDown size={22} />
+        
       </div>
     </header>
   );

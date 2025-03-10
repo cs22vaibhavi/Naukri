@@ -85,6 +85,7 @@
     background-color: blue;
     border:3px;
     border-radius: 60px;
+    width:20px;
     padding:7px;
     size:8px;
   }
@@ -92,3 +93,5 @@
   .iconn{
     margin-top: 5px;
   }
+
+  

@@ -5,7 +5,7 @@ const Reviews = () => {
   return (
     <div className="reviews">
       <div className="header">
-        <h3>Reviews</h3>
+        <h4>Reviews</h4>
         <a href="#">Read all 1945 reviews</a>
       </div>
       <div className="reviewItem">

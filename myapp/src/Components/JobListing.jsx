@@ -1,26 +1,35 @@
 import React from "react";
 import "./JobListing.css";
 import Button from "./Button";
+import { MdOutlineDateRange } from "react-icons/md";
+import { MdCurrencyRupee } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 
 const JobListing = () => {
   return (
     <div className="jobListing">
       <div className="header">
         <h2>Senior Finance Executive Revenue To Record CA Freshers</h2>
-        <img src="https://yt3.googleusercontent.com/ytc/AIdro_nCtT9fD37NkD-qXYim9LUc6_HWulcfL2SeU51ZlRS8dkQ=s900-c-k-c0x00ffffff-no-rj" width="50px" height="50px"></img>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLwYfTFsaXCllOoqlFw05E2V6YcBH8Bo-fhw&s" width="50px" height="50px"></img><br></br>
+        <h5>Send me jobs like this</h5>
       </div>
       <div className="unacademy">
        
         <p className="company">Unacademy ⭐ 3.0 | 1945 Reviews</p>
         </div>
       <div className="details">
-        <span><img src="https://img.icons8.com/?size=20&id=8yG2a6v2mm3S&format=png"></img>0 - 2 years </span>|
-        <span><img src="https://img.icons8.com/?size=20&id=B5w0V2fjjZ38&format=png"></img>Not Disclosed</span><br></br>
-        <span><img src="https://img.icons8.com/?size=20&id=3723&format=png"></img>Bengaluru</span><br></br>
+      <MdOutlineDateRange />0 - 2 years  |
+      <MdCurrencyRupee />Not Disclosed<br></br>
+      <IoLocationOutline />Bengalore
+        
+        
+        <div class="border">
+          
+        </div>
         
       </div>
       <div className="meta">
-        <p>Posted: 17 days ago | Openings: 2 | Applicants: 884</p>
+        <p>Posted:17 days ago| Openings:2 | Applicants:884</p>
         
       </div>
       <div className="actions">
